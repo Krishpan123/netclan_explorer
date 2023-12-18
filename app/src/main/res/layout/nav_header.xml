@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:paddingStart="20dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/setting" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/user"
+        android:background="@color/grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:paddingTop="8dp"
+        android:textSize="20dp"
+        android:text="Krishpan Ghimire"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserNumber"
+        android:paddingTop="8dp"
+        android:textSize="15dp"
+        android:text="00PC050"
+        android:textColor="@color/black"
+        android:textStyle="normal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userstatus"
+        android:text="Available"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+
+</LinearLayout>

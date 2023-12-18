@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/user"
+        android:title="My Profile"/>
+
+    <item
+        android:id="@+id/nav_network"
+        android:icon="@drawable/persons"
+        android:title="My Network"/>
+
+    <item
+        android:id="@+id/nav_SwitchToBusiness"
+        android:icon="@drawable/bag"
+        android:title="Switch To Business"/>
+
+    <item
+        android:id="@+id/nav_switch_to_merchant"
+        android:icon="@drawable/merchant"
+        android:title="Switch To Merchant"/>
+
+    <item
+        android:id="@+id/nav_Dating"
+        android:icon="@drawable/love"
+        android:title="Dating"/>
+
+    <item
+        android:id="@+id/nav_Matrimony"
+        android:icon="@drawable/ring"
+        android:title="Matrimony"/>
+
+    <item
+        android:id="@+id/nav_Buy_Sell_Rent"
+        android:icon="@drawable/bag"
+        android:title="Buy-Sell-Rent"/>
+
+    <item
+        android:id="@+id/nav_Job"
+        android:icon="@drawable/bag"
+        android:title="Jobs"/>
+
+    <item
+        android:id="@+id/nav_businesscard"
+        android:icon="@drawable/card"
+        android:title="Business Cards"/>
+
+    <item
+        android:id="@+id/nav_Netclan"
+        android:icon="@drawable/hash"
+        android:title="Netclan Groups"/>
+
+    <item
+        android:id="@+id/nav_Notes"
+        android:icon="@drawable/notes"
+        android:title="Notes"/>
+
+    <item
+        android:id="@+id/nav_Livelocation"
+        android:icon="@drawable/location"
+        android:title="Live Location"/>
+
+</menu>
